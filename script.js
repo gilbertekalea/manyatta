@@ -66,7 +66,6 @@ colorRef.textContent = "HEX FORMAT : " + "Linear-gradient (to right," + colorArr
 //eventlistening
 color1.addEventListener("input",setGradient);
 color2.addEventListener("input",setGradient);
-
 //!advanced function 
 //closures
 const first = () => {
@@ -352,3 +351,4 @@ for (item in fullBasket){
  }
 const newName = new Person ();
 newName.introduceyourself();
+
